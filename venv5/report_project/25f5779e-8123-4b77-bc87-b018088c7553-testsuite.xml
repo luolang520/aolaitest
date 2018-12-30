@@ -1,0 +1,30 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1546156180183" stop="1546156180220">
+  <name>Test_001</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1546156180183" status="failed" stop="1546156180220">
+      <name>TestAssert.test_a</name>
+      <failure>
+        <message>AssertionError: abc
+assert 2 &gt; 3</message>
+        <stack-trace>self = &lt;Test_001.TestAssert object at 0x00000279D2349198&gt;
+
+    def test_a(self):
+&gt;       assert 2&gt;3,"abc"
+E       AssertionError: abc
+E       assert 2 &gt; 3
+
+Test_001.py:8: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="51112-MainThread"/>
+        <label name="host" value="MSI"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
